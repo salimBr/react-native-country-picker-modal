@@ -184,7 +184,7 @@ export const getCountriesAsync = async (
 
 const DEFAULT_FUSE_OPTION = {
   shouldSort: true,
-  threshold: 0.3,
+  threshold: 0,
   location: 0,
   distance: 100,
   maxPatternLength: 32,
